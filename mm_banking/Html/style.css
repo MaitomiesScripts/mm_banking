@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    color: #01A944;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background: fixed !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.Root {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.right {
+    display: grid;
+}
+
+.Bank {
+    width: fit-content;
+    height: fit-content;
+    min-width: 25rem;
+    background-color: rgb(255, 255, 255);
+    min-height: 35rem;
+    display: grid;
+    border: solid 0.7rem #01A944;
+}
+
+.AccountInfo {
+    width: fit-content;
+    height: 10rem;
+    min-width: 15rem;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border: solid 0.7rem #01A944;
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.SendMoney {
+    width: fit-content;
+    height: 15rem;
+    min-width: 15rem;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border: solid 0.7rem #01A944;
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.logo {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saldotext {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 1rem;
+}
+
+.Withdraw {
+    background-color: white;
+    width: 95%;
+    height: fit-content;
+    min-height: 10%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #01A944;
+    outline: none;
+    border: solid 0.2rem #01A944;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 450;
+}
+
+input[type=text]::placeholder {
+    color: #01A944;
+}
+
+input[type=submit] {
+    background-color: #01A944;
+    color: white;
+    width: 105%;
+    height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #008e39;
+}
+
+.Standard-button-red {
+    background-color: #fd4040;
+    color: white;
+    width: 95%;
+    height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.Standard-button-red:hover {
+    background-color: #a80101;
+}

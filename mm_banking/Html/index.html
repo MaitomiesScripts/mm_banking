@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Root" class="Root">
+        <div id="Bank" class="Bank">
+            <img src="logo.png" class="logo">
+            <form class="Withdraw" method="dialog">
+                <h1>Nosto</h1>
+                <input type="text" id="withdrawvalue" placeholder="Määrä">
+                <input type="submit" id="withdrawbutton" class="Standard-button" value="Nosta">
+                <br>
+            </form>
+            <form class="Withdraw" method="dialog">
+                <h1>Talletus</h1>
+                <input type="text" id="depositvalue" placeholder="Määrä">
+                <input type="submit" id="depositbutton" class="Standard-button" value="Talleta">
+                <br>
+            </form>
+            <button class="Standard-button-red" id="logoutbutton">Kirjaudu ulos</button>
+        </div>
+        <div class="right">
+            <div class="AccountInfo">
+                <h1 style="text-align: center;">Tilitiedot</h1>
+                <h1 class="saldotext" id="welcome">Tervetuloa Uuno</h1>
+                <h1 class="saldotext" id="currency">Tilin saldo: 0€</h1>
+            </div>
+            <div class="SendMoney">
+                <form class="Withdraw" method="dialog">
+                    <h1 style="text-align: center;">Tilisiirto</h1>
+                    <input type="text" id="targetid" placeholder="Pelaajan pankkitunnus (id)">
+                    <input type="text" id="cashvalue" placeholder="Saldo">
+                    <input type="submit" id="sendmoney" value="Lähetä">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
